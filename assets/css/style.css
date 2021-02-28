@@ -1,0 +1,204 @@
+header{
+    background-color: #082742;
+    padding: 14px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.header-left img{
+    height: 36px;
+
+}
+
+.nav{
+    display: flex;
+    
+}
+
+.nav li a{
+    color: white;
+    font-size: 20px;
+    margin-left: 20px;
+    /* aタグの装飾を消す */
+    text-decoration: none;
+
+}
+
+.welcome{
+    background-image: url(../img/background.jpg);
+    /* vh=view height */
+    height: 100vh;
+    /* background-size cover 画像全体 */
+    background-size: cover;
+    /* 繰り返し画像しない*/
+    background-repeat: no-repeat;
+
+    /* position: relative; */
+}
+
+/* HW */
+main{
+    /* display: flex; */
+    
+}
+
+
+.welcome h1{
+    color:white;
+    text-align: center;
+    font-size: 80px;
+    font-weight: bold;
+    padding-top: 300px;
+
+}
+
+.guideline li{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    padding-top: 20px;
+
+}
+
+#programming{
+    
+    margin: 50px 50px;
+    background-color: khaki;
+    /* display: inline-block; */
+    /* flex-direction: column; */
+    /* align-items: center; */
+    text-align: center;
+
+}
+
+#programming h2{
+    display: inline-block;
+    color: #808080;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    background-color: lemonchiffon;
+   
+}
+
+.discription{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 100%;
+
+
+}
+
+.contents1 {
+    
+    display: flex;
+    /* justify-content: center; */
+    width: 250px;
+    margin: 0 auto;
+    align-items: center;
+
+
+}
+
+.img{
+    width: 250px;
+}
+
+.img1 img {
+   display: flex;
+    /* width: 40%; */
+    width: 250px;
+    height: auto;
+    /* padding: 0 20px; */
+    align-items: center;
+   
+
+}
+
+#english{
+    margin: 50px 50px;
+    
+}
+
+#english h2{
+    color: #808080;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightsalmon;
+    
+
+
+}
+
+.discription2 {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+
+    margin-top: 30px;
+    margin-bottom: 30px;
+    /* width: 100%; */
+    background-color: lightpink;
+    
+    
+}
+
+.img{
+    width: 100%;
+}
+
+.img2 img{
+    width: 30%;
+    height: auto;
+    margin: 0 auto;
+    /* align-items: center; */
+
+    /* margin-left: 400px; */
+    
+
+}
+
+.contents2 p{
+    
+    
+    text-align: center;
+    width: 50%;
+
+
+    
+
+    
+
+
+}
+
+
+
+
+footer{
+    background-color: #082742;
+    color: white;
+    font-size: 20px;
+    padding: 20px 0;
+    margin-top: 100px;
+    /* 文字中央寄せにする */
+    text-align: center;
+    
+} 
+
+/* 真ん中に寄せる(横) */
+/* display:flex;
+text-align:center;
+margin:0 auto; */
